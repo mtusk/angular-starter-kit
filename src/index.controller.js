@@ -3,16 +3,16 @@
 
   angular
     .module('angular-starter-kit')
-    .controller('AppController', AppController);
+    .controller('IndexController', IndexController);
 
-  function AppController($state) {
+  function IndexController() {
 
     var vm = this;
 
-    vm.$state = $state;
+    vm.message = null;
 
     function activate() {
-      //
+      vm.message = 'Hello world';
     }
 
     activate();

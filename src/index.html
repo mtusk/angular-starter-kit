@@ -18,13 +18,12 @@
 
 <body ng-app="angular-starter-kit">
 
-  <div ui-view></div>
+  <div ng-controller="IndexController as vm">
+    <h1>{{vm.message}}</h1>
+  </div>
 
-  <script src="app/app.js"></script>
-  <script src="app/app.route.js"></script>
-  <script src="app/app.controller.js"></script>
-  <script src="app/about/about.controller.js"></script>
-  <script src="app/home/home.controller.js"></script>
+  <script src="index.js"></script>
+  <script src="index.controller.js"></script>
 
 </body>
 
