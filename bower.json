@@ -1,0 +1,24 @@
+{
+  "name": "angular-starter-kit",
+  "description": "A simple implementation of Angular to use as a playground or for demos",
+  "main": "index.js",
+  "authors": [
+    "Adam Anderson <Adam.Anderson@chrobinson.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mtusk/angular-starter-kit",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.0",
+    "angular-ui-router": "~0.2.18",
+    "angular-bootstrap": "~1.2.4"
+  }
+}

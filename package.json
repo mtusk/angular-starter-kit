@@ -1,0 +1,25 @@
+{
+  "name": "angular-starter-kit",
+  "version": "1.0.0",
+  "description": "A simple implementation of Angular to use as a playground or for demos",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtusk/angular-starter-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/mtusk/angular-starter-kit/issues"
+  },
+  "homepage": "https://github.com/mtusk/angular-starter-kit#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "lite-server": "^2.1.0"
+  },
+  "dependencies": {}
+}
