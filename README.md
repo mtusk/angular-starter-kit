@@ -6,7 +6,7 @@ Demonstrates:
 - Simple controller with binding
 - Serving with [lite-server](https://github.com/johnpapa/lite-server) and [npm](https://github.com/npm/npm)
 
-# Getting Started
+## Getting Started
 ```
 npm install
 bower install
