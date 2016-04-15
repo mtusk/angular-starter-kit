@@ -3,7 +3,7 @@
   "description": "A simple implementation of Angular to use as a playground or for demos",
   "main": "index.js",
   "authors": [
-    "Adam Anderson <Adam.Anderson@chrobinson.com>"
+    "mtusk"
   ],
   "license": "ISC",
   "homepage": "https://github.com/mtusk/angular-starter-kit",
@@ -18,6 +18,9 @@
   ],
   "dependencies": {
     "angular": "1.5.0",
-    "angular-bootstrap": "~1.2.4"
+    "angular-material": "~1.0.7"
+  },
+  "resolutions": {
+    "angular": "^1.0.8"
   }
 }

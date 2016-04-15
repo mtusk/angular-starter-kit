@@ -9,10 +9,11 @@
 
     var vm = this;
 
-    vm.message = null;
+    vm.title = null;
+    vm.content = null;
 
     function activate() {
-      vm.message = 'Hello world';
+      vm.title = 'Hello world';
     }
 
     activate();

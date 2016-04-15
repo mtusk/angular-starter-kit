@@ -8,18 +8,30 @@
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="stylesheet" href="../bower_components/bootstrap-css-only/css/bootstrap.css">
-  <link rel="stylesheet" href="../bower_components/bootstrap-css-only/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css">
 
   <script src="../bower_components/angular/angular.js"></script>
-  <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="../bower_components/angular-aria/angular-aria.js"></script>
+  <script src="../bower_components/angular-messages/angular-messages.js"></script>
+  <script src="../bower_components/angular-animate/angular-animate.js"></script>
+  <script src="../bower_components/angular-material/angular-material.js"></script>
   <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 </head>
 
 <body ng-app="angular-starter-kit">
 
   <div ng-controller="IndexController as vm">
-    <h1>{{vm.message}}</h1>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>{{vm.title}}</h2>
+      </div>
+    </md-toolbar>
+
+    <md-content md-whiteframe="1" layout-margin layout-padding class="md-hue-1">
+      <h3>Bacon!</h3>
+      <p>Shankle brisket flank, short loin strip steak cupim tri-tip bresaola t-bone tongue doner ham shoulder. Frankfurter filet mignon pork belly cow salami. Turkey meatball cupim tri-tip rump short ribs bacon prosciutto pastrami landjaeger. Prosciutto t-bone porchetta sirloin leberkas beef kevin kielbasa landjaeger pork belly doner turducken. Pork sirloin pastrami shank spare ribs porchetta shoulder tri-tip, boudin pork belly. Jowl chuck shankle, t-bone meatloaf leberkas tongue frankfurter pork belly tenderloin drumstick ball tip andouille short ribs hamburger. Rump turducken pork short ribs andouille.</p>
+      <p>Chuck ground round pork, fatback prosciutto hamburger pork belly cupim. Andouille pig shank shankle pork chop leberkas sirloin tenderloin prosciutto chicken beef ribs ribeye tri-tip short ribs. Chicken pork chop ball tip beef ribs ham cow flank capicola shoulder tongue landjaeger shankle picanha prosciutto. Landjaeger ham hock boudin, capicola cow salami meatball pork loin biltong beef ribs shank spare ribs filet mignon swine prosciutto. Ground round drumstick shank prosciutto tri-tip venison ball tip strip steak picanha bacon jowl kielbasa tail.</p>
+    </md-content>
   </div>
 
   <script src="index.js"></script>
