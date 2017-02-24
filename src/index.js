@@ -2,6 +2,6 @@
   'use strict';
 
   angular.module('angular-starter-kit', [
-    'ui.bootstrap'
+    'ngMaterial'
   ]);
 })();
